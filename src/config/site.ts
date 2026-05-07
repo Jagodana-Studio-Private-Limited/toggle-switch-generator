@@ -1,174 +1,172 @@
 export const siteConfig = {
-  // ====== CUSTOMIZE THESE FOR EACH TOOL ======
-  name: "{{TOOL_NAME}}",
-  title: "{{TOOL_TITLE}}",
-  description: "{{TOOL_DESCRIPTION}}",
-  url: "https://{{TOOL_SLUG}}.jagodana.com",
+  name: "Toggle Switch Generator",
+  title: "CSS Toggle Switch Generator — Free Online Tool",
+  description:
+    "Generate pure CSS toggle switches instantly. Customize size, colors, border-radius, and transition speed. Get copy-paste HTML, CSS, and React code for your projects.",
+  url: "https://toggle-switch-generator.tools.jagodana.com",
   ogImage: "/opengraph-image",
 
-  // Header
-  headerIcon: "Wrench", // lucide-react icon name (e.g., Image, Map, Code, Palette, Globe, FileSearch)
-  // Brand gradient colors for Tailwind are in globals.css (--brand / --brand-accent)
-  // Use text-brand, from-brand, to-brand-accent etc. in components
-  brandAccentColor: "#06b6d4", // hex accent for OG image gradient (must match --brand-accent in globals.css)
+  headerIcon: "ToggleLeft",
+  brandAccentColor: "#6366f1",
 
-  // SEO
   keywords: [
-    "{{KEYWORD_1}}",
-    "{{KEYWORD_2}}",
-    "{{KEYWORD_3}}",
+    "css toggle switch generator",
+    "css toggle switch",
+    "custom checkbox css",
+    "toggle button generator",
+    "css switch generator",
+    "html toggle switch",
+    "pure css toggle",
+    "online toggle switch maker",
+    "toggle switch code",
+    "css ui component generator",
   ],
-  applicationCategory: "DeveloperApplication", // or "DesignApplication", "UtilitiesApplication"
+  applicationCategory: "DeveloperApplication",
 
-  // Theme
-  themeColor: "#10b981", // used in manifest and meta tags
+  themeColor: "#3b82f6",
 
-  // Branding
   creator: "Jagodana",
   creatorUrl: "https://jagodana.com",
   twitterHandle: "@jagodana",
 
-  // Social Profiles (for Organization schema sameAs)
-  socialProfiles: [
-    "https://twitter.com/jagodana",
-    // Add more: LinkedIn, YouTube, etc.
-  ],
+  socialProfiles: ["https://twitter.com/jagodana"],
 
-  // Links
   links: {
-    github: "https://github.com/Jagodana-Studio-Private-Limited/{{TOOL_SLUG}}",
+    github:
+      "https://github.com/Jagodana-Studio-Private-Limited/toggle-switch-generator",
     website: "https://jagodana.com",
   },
 
-  // Footer
   footer: {
-    about: "{{FOOTER_ABOUT_DESCRIPTION}}",
+    about:
+      "Generate beautiful CSS toggle switches for your web projects. Customize every detail — size, colors, shape, and transition speed — then copy the code.",
     featuresTitle: "Features",
     features: [
-      "{{FEATURE_1}}",
-      "{{FEATURE_2}}",
-      "{{FEATURE_3}}",
-      "{{FEATURE_4}}",
+      "Live preview",
+      "Customizable colors",
+      "Multiple sizes & shapes",
+      "HTML, CSS & React export",
     ],
   },
 
-  // Hero Section
   hero: {
-    badge: "{{HERO_BADGE_TEXT}}",
-    titleLine1: "{{HERO_TITLE_LINE_1}}",
-    titleGradient: "{{HERO_TITLE_GRADIENT_TEXT}}",
-    subtitle: "{{HERO_SUBTITLE}}",
+    badge: "Free CSS Generator",
+    titleLine1: "Generate CSS",
+    titleGradient: "Toggle Switches",
+    subtitle:
+      "Customize size, colors, shape, and transition speed. Get copy-paste HTML, CSS, and React code instantly — no sign-up required.",
   },
 
-  // Feature Cards (shown on homepage)
   featureCards: [
     {
-      icon: "{{FEATURE_ICON_1}}",
-      title: "{{FEATURE_CARD_TITLE_1}}",
-      description: "{{FEATURE_CARD_DESC_1}}",
+      icon: "🎨",
+      title: "Full Color Control",
+      description:
+        "Pick any on/off color and knob color with a visual color picker for pixel-perfect switches.",
     },
     {
-      icon: "{{FEATURE_ICON_2}}",
-      title: "{{FEATURE_CARD_TITLE_2}}",
-      description: "{{FEATURE_CARD_DESC_2}}",
+      icon: "📐",
+      title: "Size & Shape Options",
+      description:
+        "Choose from small, medium, and large presets, with pill, rounded, or square border-radius styles.",
     },
     {
-      icon: "{{FEATURE_ICON_3}}",
-      title: "{{FEATURE_CARD_TITLE_3}}",
-      description: "{{FEATURE_CARD_DESC_3}}",
+      icon: "⚡",
+      title: "Instant Code Export",
+      description:
+        "Copy clean HTML, CSS, or React/JSX code with one click — ready to drop into any project.",
     },
   ],
 
-  // Related Tools (cross-linking to sibling Jagodana tools for internal SEO)
   relatedTools: [
     {
-      name: "Favicon Generator",
-      url: "https://favicon-generator.jagodana.com",
-      icon: "🎨",
-      description: "Generate all favicon sizes + manifest from any image.",
+      name: "Box Shadow Generator",
+      url: "https://box-shadow-generator.tools.jagodana.com",
+      icon: "🌫️",
+      description: "Create CSS box shadows visually.",
     },
     {
-      name: "Sitemap Checker",
-      url: "https://sitemap-checker.jagodana.com",
+      name: "Border Radius Generator",
+      url: "https://border-radius-generator.tools.jagodana.com",
+      icon: "⬜",
+      description: "Fine-tune CSS border-radius with a visual editor.",
+    },
+    {
+      name: "CSS Gradient Generator",
+      url: "https://gradient-generator.tools.jagodana.com",
+      icon: "🌈",
+      description: "Build beautiful CSS gradients visually.",
+    },
+    {
+      name: "Loading Spinner Generator",
+      url: "https://loading-spinner-generator.tools.jagodana.com",
+      icon: "⭕",
+      description: "Generate pure CSS loading spinners.",
+    },
+    {
+      name: "CSS Animation Generator",
+      url: "https://css-animation-generator.tools.jagodana.com",
+      icon: "✨",
+      description: "Build CSS keyframe animations visually.",
+    },
+    {
+      name: "Color Contrast Checker",
+      url: "https://color-contrast-checker.tools.jagodana.com",
       icon: "🔍",
-      description: "Discover and validate sitemaps on any website.",
-    },
-    {
-      name: "Regex Playground",
-      url: "https://regex-playground.jagodana.com",
-      icon: "🧪",
-      description: "Build, test & debug regular expressions in real-time.",
-    },
-    {
-      name: "Screenshot Beautifier",
-      url: "https://screenshot-beautifier.jagodana.com",
-      icon: "📸",
-      description: "Transform screenshots into beautiful images.",
-    },
-    {
-      name: "Color Palette Explorer",
-      url: "https://color-palette-explorer.jagodana.com",
-      icon: "🎭",
-      description: "Extract color palettes from any image.",
-    },
-    {
-      name: "Logo Maker",
-      url: "https://logo-maker.jagodana.com",
-      icon: "✏️",
-      description: "Create a professional logo in 60 seconds.",
+      description: "Check WCAG color contrast ratios instantly.",
     },
   ],
 
-  // HowTo Steps (drives HowTo JSON-LD schema for rich results)
   howToSteps: [
-    { name: "{{STEP_1_NAME}}", text: "{{STEP_1_TEXT}}", url: "" },
-    { name: "{{STEP_2_NAME}}", text: "{{STEP_2_TEXT}}", url: "" },
-    { name: "{{STEP_3_NAME}}", text: "{{STEP_3_TEXT}}", url: "" },
+    {
+      name: "Choose size and shape",
+      text: "Select small, medium, or large size, and pick between pill, rounded, or square border-radius styles.",
+      url: "",
+    },
+    {
+      name: "Customize colors",
+      text: "Use the color pickers to set the on-state color, off-state color, and knob color.",
+      url: "",
+    },
+    {
+      name: "Copy the code",
+      text: "Switch between HTML, CSS, and React tabs to copy the exact code you need for your project.",
+      url: "",
+    },
   ],
-  howToTotalTime: "PT2M", // ISO 8601 duration (e.g., PT2M = 2 minutes)
+  howToTotalTime: "PT1M",
 
-  // FAQ (drives both the FAQ UI section and FAQPage JSON-LD schema)
   faq: [
     {
-      question: "{{FAQ_QUESTION_1}}",
-      answer: "{{FAQ_ANSWER_1}}",
+      question: "Is the generated toggle switch accessible?",
+      answer:
+        "Yes — the generated toggle switch uses a hidden <input type='checkbox'> as its foundation, which is fully accessible. Screen readers will announce it as a checkbox, and it is keyboard-navigable with Tab and Space keys. Focus styles are included in the generated CSS.",
     },
     {
-      question: "{{FAQ_QUESTION_2}}",
-      answer: "{{FAQ_ANSWER_2}}",
+      question: "Does the toggle switch work without JavaScript?",
+      answer:
+        "Yes — the toggle switch is 100% pure CSS and HTML. It works using the CSS :checked pseudo-class on a hidden checkbox input, requiring zero JavaScript for the toggle animation.",
     },
     {
-      question: "{{FAQ_QUESTION_3}}",
-      answer: "{{FAQ_ANSWER_3}}",
+      question: "Can I use this in React, Vue, or Angular?",
+      answer:
+        "Absolutely. The React tab generates a ready-to-use JSX component with useState. For Vue or Angular, copy the HTML and CSS tabs and adapt the template syntax — the CSS works identically in any framework.",
     },
     {
-      question: "{{FAQ_QUESTION_4}}",
-      answer: "{{FAQ_ANSWER_4}}",
+      question: "How do I change the toggle switch size?",
+      answer:
+        "Use the Size control to pick Small (44×24px), Medium (60×32px), or Large (80×44px). You can further customise by editing the generated CSS width and height values directly.",
     },
   ],
 
-  // ====== PAGES (for sitemap + per-page SEO) ======
-  // Add every route here. Sitemap and generatePageMetadata() read from this.
   pages: {
     "/": {
-      title: "{{TOOL_TITLE}}",
-      description: "{{TOOL_DESCRIPTION}}",
+      title: "CSS Toggle Switch Generator — Free Online Tool",
+      description:
+        "Generate pure CSS toggle switches instantly. Customize size, colors, border-radius, and transition speed. Get copy-paste HTML, CSS, and React code.",
       changeFrequency: "weekly" as const,
       priority: 1,
     },
-    // Example page (DELETE when starting your tool, or customize)
-    "/about": {
-      title: "About - {{TOOL_NAME}}",
-      description: "Learn more about {{TOOL_NAME}} and how it works.",
-      changeFrequency: "monthly" as const,
-      priority: 0.7,
-    },
-    // "/blog": {
-    //   title: "Blog - {{TOOL_NAME}}",
-    //   description: "Tips, tutorials, and updates about {{TOOL_NAME}}.",
-    //   changeFrequency: "weekly" as const,
-    //   priority: 0.8,
-    // },
   },
 } as const;
 
